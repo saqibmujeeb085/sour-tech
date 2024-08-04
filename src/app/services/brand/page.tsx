@@ -15,7 +15,6 @@ import { FormField } from "@/components/ui/form";
 import Button from "@/components/global-UI/Button";
 import { IoChevronBack } from "react-icons/io5";
 
-
 const brand: React.FC = () => {
   return (
     <div className="flex justify-between md:flex-col lg">
@@ -23,7 +22,7 @@ const brand: React.FC = () => {
         <div className="">
           <h2 className="text-[34px] font-[500]">What brand is your device?</h2>
           <p className="text-[20px] text-[#d0d0d0] max-w-[580px] leading-5 mt-[10px]">
-            You've come to the right place--We've done over 100,000 repairs.
+            You&apos;ve come to the right place--We&apos;ve done over 100,000 repairs.
           </p>
         </div>
 
@@ -67,8 +66,6 @@ const brand: React.FC = () => {
             
           </Select>
 
-
-
         </div>
 
         <div className="flex justify-between w-[100%] border-t border-[#ffffff3b] mt-[100px] md:mt-[60px] py-8">
@@ -87,9 +84,9 @@ const brand: React.FC = () => {
       <div className="border-l md:border-t flex gap-[50px] flex-col md:flex-row justify-start items-start flex-wrap border-[#ffffff3b] min-h-[78vh] min-w-[450px] sm:min-w-[100%] md:w-[100%] px-[70px] sm:px-[20px] sm:py-[30px] py-[50px] w-[30%]">
         
       <div className="Contect">
-        <h2 className="text-[20px] font-[500]">Find your device’s brand</h2>
+        <h2 className="text-[20px] font-[500]">Find your device&rsquo;s brand</h2>
           <p className="text-[16px] text-[#d0d0d0] max-w-[560px] leading-5 mt-[20px] font-[500]">
-          Your device brand can usually be found on the back of the handset itself, but if for whatever reason you aren’t sure don't panic!<br/> <br/>
+          Your device brand can usually be found on the back of the handset itself, but if for whatever reason you aren&rsquo;t sure don&apos;t panic!<br/> <br/>
 
           It is indicated on back of the device, on the front, or in the Settings/System/About phone section if you are on Android or Settings/ IS=Ds if you are on IOS. It may also be shown on the original box and/ or manual that came with your device.
           </p>
