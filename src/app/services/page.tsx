@@ -29,10 +29,10 @@ const services: React.FC = () => {
 
   return (
     <div className="flex justify-between md:flex-col lg">
-      <div className="p-[70px] ">
-        <div className="w-[561px]">
+      <div className="p-[70px] sm:px-[20px] sm:py-[30px] ">
+        <div className="">
           <h2 className="text-[34px] font-[500]">Let's find your device.</h2>
-          <p className="text-[20px] text-[#d0d0d0] max-w-[560px] leading-5 m-t-[10px]">
+          <p className="text-[20px] text-[#d0d0d0] max-w-[560px] leading-5 mt-[10px]">
             Get a free consultation today with one of our tech advisors. We offer
             lifetime guaranteed services, with a best price guarantee.
           </p>
@@ -44,9 +44,10 @@ const services: React.FC = () => {
           ))}
         </div>
       </div>
-      <div className="border-l md:border-t flex gap-[50px] flex-col md:flex-row justify-start items-start flex-wrap border-[#ffffff3b] min-h-[78vh] min-w-[450px] md:w-[100%] px-[70px] py-[50px] w-[30%]">
+      <div className="border-l md:border-t flex gap-[50px] flex-col md:flex-row justify-start items-start flex-wrap border-[#ffffff3b] min-h-[78vh] min-w-[450px] sm:min-w-[100%] md:w-[100%] px-[70px] sm:px-[20px] sm:py-[30px] py-[50px] w-[30%]">
+        
+        
         <StoreDetails />
-       
           <StoreServices />
         
       </div>

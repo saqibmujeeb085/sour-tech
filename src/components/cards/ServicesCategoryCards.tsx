@@ -16,7 +16,9 @@ const ServicesCategoryCards: React.FC<Props> = ({ Name, ImageSRC }) => {
         href=""
         className="flex gap-[20px] py-[20px] px-3 flex-col justify-between h-[100%] items-center"
       >
-        <Image src={ImageSRC} alt={Name} width={100} height={100} />
+        <div className='w-[100%] max-h-[100px] flex justify-center items-center'>
+        <Image src={ImageSRC} alt={Name}  />
+        </div>
         <p className="text-[18px] font-[500]">{Name}</p>
       </Link>
     </div>

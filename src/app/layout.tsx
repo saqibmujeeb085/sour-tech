@@ -47,7 +47,9 @@ export default function RootLayout({
       <body className={`${SFPRO.variable} ${poppins.variable}`}>
         <Header />
         <main className="min-h-[78vh] bg-background">
+          <div className="max-w-[1400px] self-center mx-auto">
           {children}
+          </div>
         </main>
         <Footer />
       </body>

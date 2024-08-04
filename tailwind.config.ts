@@ -7,7 +7,7 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -76,12 +76,20 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      boxShadow: {
+        'inner-hsla': ' inset 0 -4px 4px 0 hsla(0, 0%, 0%, 0.25), inset 0 4px 4px 0 hsla(40, 33%, 96%, 0.25)',
+      },
       screens: {
         'sm': { 'max': '767px' },
         'md': { 'max': '1024px' },
         'lg': { 'max': '1600px' },
         'xlg': { 'max': '2400px' }
       },
+    },
+  },
+  variants: {
+    extend: {
+      boxShadow: ['hover', 'focus'],
     },
   },
   plugins: [require("tailwindcss-animate")],

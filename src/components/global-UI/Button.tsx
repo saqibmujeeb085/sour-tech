@@ -5,12 +5,13 @@ interface ButtonProps {
   text: string;
   linkURL?: string;
   onClick?: () => void;
+  black: boolean
 }
 
-const Button: React.FC<ButtonProps> = ({ text, linkURL, onClick }) => {
+const Button: React.FC<ButtonProps> = ({ text, linkURL, onClick, black }) => {
   return (
     <button 
-      className="text-[18px] text-[#fff] font-[500] px-[15px] py-[10px] rounded-[8px] bg-gradient-to-t from-[#A2E887] to-[#68BA48] hover:bg-[#68BA48]" 
+      className="text-[18px] shadow-inner-hsla text-[#fff] font-[500] px-[15px] py-[10px] rounded-[8px] bg-gradient-to-t to-[#A2E887] from-[#68BA48]" 
       onClick={onClick}
     >
       {linkURL ? (
