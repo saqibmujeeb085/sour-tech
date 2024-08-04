@@ -37,7 +37,7 @@ const Header = () => {
             ))}
           </ul>
           <div>
-            <Button text="Get Support" linkURL="#"/>
+            <Button text="Get Support" linkURL="#" black={false}/>
           </div>
         </div>
         

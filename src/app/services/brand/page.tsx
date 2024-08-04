@@ -78,7 +78,7 @@ const brand: React.FC = () => {
         </Link>
       
     </button>
-            <Button text="Continue"/>
+            <Button linkURL="#" text="Continue" black={false}/>
         </div>
       </div>
       <div className="border-l md:border-t flex gap-[50px] flex-col md:flex-row justify-start items-start flex-wrap border-[#ffffff3b] min-h-[78vh] min-w-[450px] sm:min-w-[100%] md:w-[100%] px-[70px] sm:px-[20px] sm:py-[30px] py-[50px] w-[30%]">
