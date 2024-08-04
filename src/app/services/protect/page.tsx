@@ -5,6 +5,7 @@ import No from "../../../assets/temperory/no.png"
 import Sure from "../../../assets/temperory/sure.png"
 import ServicesCategoryCards from "@/components/cards/ServicesCategoryCards";
 import Image from "next/image";
+import { StaticImageData } from "next/image";
 
 
 type Category = {

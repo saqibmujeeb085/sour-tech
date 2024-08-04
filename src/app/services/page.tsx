@@ -10,6 +10,7 @@ import Else from "../../assets/temperory/image 56.png";
 import StoreDetails from "@/components/store/StoreDetails";
 import StoreServices from "@/components/store/StoreServices";
 import ServicesCategoryCards from "@/components/cards/ServicesCategoryCards";
+import { StaticImageData } from "next/image";
 
 type Category = {
   id: number;

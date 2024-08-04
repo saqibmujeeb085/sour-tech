@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { StaticImageData } from "next/image";
 
 type Props = {
   Name: string;
