@@ -57,7 +57,7 @@ const issue: React.FC = () => {
           <button 
             className="text-[18px] shadow-inner-hsla text-[#fff] font-[500] px-[15px] py-[10px] rounded-[8px] bg-card"
           >
-            <Link className="flex-1 flex items-center gap-2" href={"#"}>
+            <Link className="flex-1 flex items-center gap-2" href={"/services/protect"}>
               <IoChevronBack size={20}/> Back
             </Link>
           </button>
@@ -73,7 +73,7 @@ const issue: React.FC = () => {
               <Image src={MblSmal} alt="mbl" />
               <h2 className="font-[700] text-[18px]">Apple iPhone 12</h2>
             </div>
-            <Link href={"#"} className="font-[700] text-[18px] underline text-primary">Change</Link>
+            <Link href={"/services/protect"} className="font-[700] text-[18px] underline text-primary">Change</Link>
           </div>
         </div>
         <StoreDetails />

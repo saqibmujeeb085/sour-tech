@@ -73,12 +73,12 @@ const brand: React.FC = () => {
       className="text-[18px] shadow-inner-hsla text-[#fff] font-[500] px-[15px] py-[10px] rounded-[8px] bg-card" 
     >
       
-        <Link  className="flex-1 flex items-center gap-2" href={"#"}>
+        <Link  className="flex-1 flex items-center gap-2" href="/services">
         <IoChevronBack size={20}/> Back
         </Link>
       
     </button>
-            <Button linkURL="#" text="Continue" black={false}/>
+            <Button linkURL={"/services/protect"} text="Continue" black={false}/>
         </div>
       </div>
       <div className="border-l md:border-t flex gap-[50px] flex-col md:flex-row justify-start items-start flex-wrap border-[#ffffff3b] min-h-[78vh] min-w-[450px] sm:min-w-[100%] md:w-[100%] px-[70px] sm:px-[20px] sm:py-[30px] py-[50px] w-[30%]">

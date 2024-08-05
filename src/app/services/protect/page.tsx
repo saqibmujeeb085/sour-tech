@@ -11,15 +11,16 @@ import { StaticImageData } from "next/image";
 type Category = {
     id: number;
     name: string;
+    link: string;
     image: StaticImageData;
   };
 
 const protection: React.FC = () => {
 
     const categories: Category[] = [
-        { id: 1, name: "Yes", image: Yes },
-        { id: 2, name: "No", image: No },
-        { id: 3, name: "I'm not sure", image: Sure },
+        { id: 1, name: "Yes", link: "/services/issue" , image: Yes },
+        { id: 2, name: "No", link: "/services/issue" , image: No },
+        { id: 3, name: "I'm not sure", link: "/services/issue" , image: Sure },
         
       ];
 
@@ -36,7 +37,7 @@ const protection: React.FC = () => {
         <div className="mt-20 flex justify-start flex-wrap gap-[25px] max-w-[660px]">
             
         {categories.map((category) => (
-            <ServicesCategoryCards key={category.id} Name={category.name} ImageSRC={category.image} />
+            <ServicesCategoryCards key={category.id} Name={category.name} ImageSRC={category.image} link={category.link} />
           ))}
 
 
